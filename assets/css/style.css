@@ -38,7 +38,7 @@ a {
   text-decoration: none;
 }
 
-.visually--hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -83,13 +83,13 @@ a {
   display: block;
   letter-spacing: var(--letter-spacing);
   text-transform: uppercase;
-  transition: linear 1s;
+  transition: scale 0.1s;
 }
 
 .navbar__link--active,
 .navbar__link:hover {
   color: var(--color-primary);
-  font-weight: 500;
+  scale: 1.1;
 }
 
 .content {
@@ -132,13 +132,13 @@ a {
   min-height: 359px;
 }
 
-.about_title {
+.about__title {
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
 }
 
-.about_description {
+.about__description {
   margin-top: 37px;
   color: var(--color-secondary);
   text-align: center;
@@ -178,28 +178,28 @@ a {
   flex-wrap: wrap;
 }
 
-.experience_item {
+.experience-item {
   display: flex;
   gap: 18px;
 }
 
-.experience_item__content {
+.experience-item__content {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.experience_item__number {
+.experience-item__number {
   padding-top: 4px;
   font-size: 21px;
   font-weight: 500;
 }
 
-.experience_item__text {
+.experience-item__text {
   font-size: 16px;
 }
 
-.experience_item__image {
+.experience-item__image {
   padding-top: 2px;
   order: -1;
 }
@@ -209,7 +209,7 @@ a {
   padding-bottom: 100px;
 }
 
-.video_iframe {
+.video__iframe {
   border: 0;
   height: 600px;
   width: 100%;
@@ -227,6 +227,6 @@ a {
   margin-bottom: 7px;
 }
 
-.footer_copyright {
+.footer__copyright {
   font-size: 13px;
 }
